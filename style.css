@@ -128,7 +128,7 @@ h2 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
     color: rgb(148, 148, 148);
 }
@@ -144,6 +144,15 @@ h2 {
 h1 {
     margin: 0;
     font-size: 18px;
+}
+
+.ctaheader {
+    font-size: 16px;
+}
+
+.ctacontent {
+    font-size: 12px;
+    margin: 0;
 }
 
 .quote {
@@ -169,11 +178,10 @@ h1 {
 }
 
 .calltoaction {
-    background-color: #3882f6;
     color: #f9faf8;
     /* margin: 30px 100px 30px 100px; */
-    border-radius: 5px;
-    padding: 25px 100px 25px 100px;
+  
+    /* padding: 25px 100px 25px 100px; */
 }
 
 footer {
@@ -192,12 +200,24 @@ footer {
     border-style: solid;
     padding: 5px 25px 5px 25px;
     margin-left: 50px;
+
 }
 
 .ctacontainer {
+    background-color: #3882f6;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px 80px;
     margin-bottom: 50px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 50px;
+    margin-top: 50px; */
 }
